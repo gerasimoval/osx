@@ -1,0 +1,24 @@
+install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+install xcode
+xcode-select --install
+
+install utm
+brew install utm
+
+install qemu
+brew install qemu
+
+download dump arm64
+https://uupdump.net/known.php?q=22000.1098
+
+go to dump folder and execute
+brew install aria2
+brew tap sidneys/homebrew
+
+brew install cabextract wimlib cdrtools
+brew tap minacle/chntpw
+brew install aria2 cabextract wimlib cdrtools minacle/chntpw/chntpw
+
+and install windows into utm
